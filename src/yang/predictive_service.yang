@@ -1,0 +1,44 @@
+module predictive_service {
+
+  namespace "http://example.com/predictive_service";
+  prefix predictive_service;
+
+
+import tailf-ncs {
+    prefix ncs;
+  }
+
+  container test-container {
+    list test-list {
+      ordered-by user;
+      key test-key;
+      leaf test-key {
+        type string;
+      }
+    }
+  }
+
+
+
+
+list predictive_service {
+    description "This is an RFS skeleton service";
+
+    key name;
+    leaf name {
+      type string;
+    }
+
+    uses ncs:service-data;
+    ncs:servicepoint predictive_service-servicepoint;
+
+
+    leaf max-length {
+      type uint32;
+    }
+
+
+  }
+
+
+}

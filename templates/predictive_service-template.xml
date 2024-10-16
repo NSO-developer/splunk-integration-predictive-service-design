@@ -1,0 +1,9 @@
+<config-template xmlns="http://tail-f.com/ns/config/1.0">
+  <test-container xmlns="http://example.com/predictive_service">
+    <?for i=0; {$i < $MaxLen}; i={$i + 1}?>
+    <test-list>
+        <test-key>{$i}</test-key>
+    </test-list>
+    <?end?>
+  </test-container>
+</config-template>

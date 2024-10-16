@@ -1,0 +1,5 @@
+python/predictive_service/config/splunk_config.json
+python/predictive_service/__pycache__/*
+*.pyc
+*.fxs
+load-dir/*.fxs
