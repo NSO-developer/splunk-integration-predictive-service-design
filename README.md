@@ -1,4 +1,5 @@
 # Splunk NSO Integration Example - Predictive Service Design
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/NSO-developer/splunk-integration-predictive-service-design)  
 This repository provide a example of how to design a service based on Splunk Machine Learning(ML) prediction to prevent OOM scenrio. At the same time, obtain expectated time consumption before the service run. The goal is to make the service execution Predictive and provide a overview of what is going to happend before the server execution. 
 
 # Dependency
